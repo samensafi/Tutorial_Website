@@ -1,0 +1,103 @@
+
+
+    <section class="home_sctn2 mt-5 pt-4">
+        <div class="container_full">
+            <h1 class="center yellow_bt_brdr">Install the Angular CLI</h1>
+            <h5 class="center">You use the Angular CLI to create projects, generate application and library code, 
+                and perform a variety of ongoing development tasks such as testing, bundling, and deployment.
+                To install the Angular CLI, open a terminal window and run the following command:</h5>
+                
+            <div class="angularCode text-center">npm install -g @angular/cli</div>
+            <div class="full_video section_top50 full_video2">
+                <div class="full_video_bx">
+                    <div class="welcom_video">
+                        <div class="video">
+                            <img src="./assets/images/video_img2.png" alt="" class="w-100">
+                            
+                            <br><br><br><br><br><br><br><br><br><br>
+                            <br><br><br><br><br><br><br><br><br><br>
+                            <br><br><br><br><br><br><br><br><br><br>
+                            <img src="./assets/images/video_img8.png" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="full_video_rt">
+                    <div class="wel_tx">
+                        <h2>Create a workspace and initial application</h2>
+                        <p>You develop apps in the context of an Angular workspace.</p>
+                        <ul>
+                            <li>  Run the CLI command <code>ng new</code> and provide the name <code>my-app</code>, as shown here:</li>
+                            <div class="angularCode mb-4">ng new my-app</div>
+                            <li>The <code>ng new</code> command prompts you for information about features to include in the initial app. 
+                            Accept the defaults by pressing the Enter or Return key. </li>
+                        </ul>
+                        <br>
+                        <p>The Angular CLI installs the necessary Angular npm packages and other dependencies. This can take a few minutes.</p>
+                        <p>The CLI creates a new workspace and a simple Welcome app, ready to run.</p>
+
+                        <h2>Run the application</h2>
+                        <p>The Angular CLI includes a server, for you to build and serve your app locally.</p>
+                        <ul>
+                            <li>Navigate to the workspace folder, such as my-app</li>
+                            <div class="angularCode mb-4">cd my-app <br>
+                                ng serve --open</div>
+                            <li>Run the following command:</li>
+                        </ul>
+                        <br>
+                        <p>The ng serve command launches the server, watches your files, and rebuilds 
+                            the app as you make changes to those files.</p>
+                            <p>The --open (or just -o) option automatically opens your browser to http://localhost:4200/.</p>
+                            <p>If your installation and setup was successful, you should see a page similar to the following.</p>
+                            <br>
+                            <h1>Installing Flask and hosting the backend:</h1>
+                            <p>Before we start, we need to get a text file including all requirements for this project from the virtual environment and flask that is already run our own PCs. Later we use this file to install whatever that is required on the server automatically. To do so, we need to run the following command in our local virtual environment:
+<br>
+<mark>Pip freeze > requirements.txt</mark>
+<br><br>
+The requirements.txt file should be added to our project<br>
+Then we go to the host website (https://www.pythonanywhere.com/) and log in<br>
+In the “Dashboard” we choose “Files”<br>
+Then we add all the folders and files exactly how we had made them locally in the host<br>
+After that we return to the dashboard, and we choose “Web apps”<br>
+We choose the default name for the web app and select the appropriate python version to run it. (In my case it was Python 3.8)<br>
+After we create the web app, we go to the “Code” section and choose the “source code” which allows us to choose the path of the files we have uploaded before on the server.<br>
+Now we have to setup a virtual environment on the server. In order to do that we go back to the dashboard and choose “$ Bash” under the “Consoles” section. Then we enter the command below to create the virtual environment called my_virtualenv:<br>
+<mark>Mkvirtualenv –python=/usr/bin/python3.8 my-virtualenv<br></mark>
+After installation has been done, we install flask on the server using the following command:<br>
+<mark>pip install flask<br></mark>
+The we move into our project folder (in my case the name of the folder is cps530) and use the requirement.txt we explained before to install all requirement packages, libs, and other files.<br>
+<mark>cd cps530<br></mark>
+<mark>pip install -r requirements.txt<br></mark>
+Then we go back to the web app tab from dashboard and go to the “Virtualenv” section.<br>
+We give our virtual environment’s name (In my case it was my-virtualenv) and save it.<br>
+Next we go the “WSGI configuration file” under the “Code” section and we delete all the codes there except the flask part and then uncomment the flask part of the code. We change the value of the variable “path” to the path where our project exists in the server (in my case it is ‘/home/arash2079/cps530’). Also, we need to change “main_flask_app_file” in the following code to the name of the python app we wrote(In my case it was server.py) and “app” to the variable you put “Flask(__name__)” in it (mine is called app)
+<mark><br>From main_flask_app_file import app as application<br></mark>
+The result for me will be:<br>
+<mark>From server.py import app as application<br></mark>
+Then we go back to the web app page and click on the “Reload arash2079.pythonanywhere.com” button<br>
+And now our backend is successfully hosted on the server.<br><br>
+
+<strong>Source Code: </strong>
+<a href="https://www.cs.ryerson.ca/~a1amini/assignment/source_code.htm" target="_blank">To see the source code please click here</a>
+
+<br>
+<br>The following shows all the directories that we had for the backend project:
+<br>__pycache__ /
+<br>Lib/
+<br>Scripts/  
+<br>static/  
+<br>templates/
+<br>database.txt  
+<br>pyvenv.cfg  
+<br>requirements.txt  
+<br>server.py  
+<br>The template folder includes all .html folders and the static folder includes all the .css, .js, and assets.
+</p>
+                    </div>
+                </div>
+            </div>
+    
+            
+        </div>
+    </section>
+

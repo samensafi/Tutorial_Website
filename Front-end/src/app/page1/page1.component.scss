@@ -1,0 +1,158 @@
+
+body h1 {
+}
+body h5 {
+    font-size: 20px;
+    line-height: 34px;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.full_video.section_top50 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.full_video_bx {
+    width: 50%;
+}
+.full_video_rt {
+    width: 50%;
+}
+.wel_tx {
+    max-width: 600px;
+    width: 100%;
+    padding-left: 60px;
+}
+.home_sctn5 h5 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.home_sctn5 p {
+    font-size: 12px;
+    color: #7d7d7d;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+
+.home_sctn5 h4 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 0;
+    display: flex;
+    text-transform: uppercase;
+}
+.Property_tx1 {
+    padding: 15px 10px 15px 25px;
+}
+.Property_bx {
+    margin-bottom: 25px;
+}
+.Property_bx:hover .Property_tx {
+    background: #fff;
+    transition: 0.5s all ease;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.25098039215686274);
+}
+.Property_tx {
+    background: #fff;
+    transition: 0.5s all ease;
+}
+.container_full h5 {
+    text-align: center;
+    max-width: 1195px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.container_full h1 {
+    text-align: center;
+    max-width: 1195px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 38px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.yellow_bt_brdr{
+    position: relative;
+    padding-top: 10px;;
+}
+.yellow_bt_brdr:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 4px;
+    background: #333;
+    content: "";
+    z-index: 9;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container_full h2 {
+    text-align: left;
+    max-width: 1195px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 38px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.wel_tx ul{
+    padding: 0;
+    margin: 0;
+}
+.wel_tx ul li {
+    display: block;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #333;
+    line-height: 22px;
+}
+.wel_tx ul li:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:8px;
+    width: 8px;
+    height: 8px;
+    background: #000;
+}
+.full_video2 {
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

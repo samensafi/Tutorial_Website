@@ -1,0 +1,54 @@
+.contTx {
+    font-size: 20px;
+    color: #333;
+    line-height: 22px;
+    font-weight: 500;
+}
+.sub_BTn {
+    text-align: center;
+    margin: 15px auto;
+    max-width: 200px;
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.multPLtBTn a.sub_BTn {
+    display: block;
+    width: 100%;
+    max-width: 524px;
+}
+.multPLtBTn {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_full h1 {
+    text-align: center;
+    max-width: 1195px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 38px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.yellow_bt_brdr{
+    position: relative;
+    padding-top: 10px;;
+}
+.yellow_bt_brdr:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 4px;
+    background: #333;
+    content: "";
+    z-index: 9;
+    left: 50%;
+    transform: translateX(-50%);
+}
